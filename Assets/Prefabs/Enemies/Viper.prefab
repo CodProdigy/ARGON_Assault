@@ -767,6 +767,7 @@ GameObject:
   - component: {fileID: 8468583656117646932}
   - component: {fileID: 510655505262743152}
   - component: {fileID: 3810177343738268289}
+  - component: {fileID: 2001185482315303239}
   m_Layer: 0
   m_Name: Viper
   m_TagString: Untagged
@@ -852,10 +853,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed4a29a5f5ca0714e892443300d15fa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 7643591553923461699, guid: a47a545ea11b7554193ec3804dff9faa, type: 3}
+  deathFX: {fileID: 7643591553923461699, guid: a47a545ea11b7554193ec3804dff9faa, type: 3}
   hitVFX: {fileID: 7643591553923461699, guid: 84af268b2769d504f83a70d7a2e5aa80, type: 3}
   scorePerHit: 60
   hitPoints: 6
+--- !u!65 &2001185482315303239
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5377071084634007508}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 7.10189, y: 6.631362, z: 10.594524}
+  m_Center: {x: 0, y: -0.00000059604645, z: 0.00000071525574}
 --- !u!1 &5385985215578398772
 GameObject:
   m_ObjectHideFlags: 0

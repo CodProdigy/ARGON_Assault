@@ -1197,6 +1197,7 @@ GameObject:
   - component: {fileID: 2120393085198370997}
   - component: {fileID: 7784972726558577447}
   - component: {fileID: 3767473379750015264}
+  - component: {fileID: -7365270472621949041}
   m_Layer: 0
   m_Name: Torn
   m_TagString: Untagged
@@ -1282,10 +1283,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed4a29a5f5ca0714e892443300d15fa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 7643591553923461699, guid: a47a545ea11b7554193ec3804dff9faa, type: 3}
+  deathFX: {fileID: 7643591553923461699, guid: a47a545ea11b7554193ec3804dff9faa, type: 3}
   hitVFX: {fileID: 7643591553923461699, guid: 84af268b2769d504f83a70d7a2e5aa80, type: 3}
   scorePerHit: 100
   hitPoints: 7
+--- !u!65 &-7365270472621949041
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7677566076165515185}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.259227, y: 2.7161152, z: 12.203047}
+  m_Center: {x: 0, y: -0.000000834465, z: -0.0000023841858}
 --- !u!1 &8167448082377257922
 GameObject:
   m_ObjectHideFlags: 0
